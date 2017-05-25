@@ -47,14 +47,13 @@ function handleClick(e) {
         if (secondsLeft <= (5 * 60) && timeDisplayElm.style.color !== 'red'){
             timeDisplayElm.style.color = 'red'
             timeDisplayElm.style.fontWeight = 'bold'
+            countUp.style.display = 'none'
             flash = setInterval(() => {
-                if(timeDisplayElm.style.display === 'block'){
-                    timeDisplayElm.style.display = 'none'
-                } 
-                else {
+                timeDisplayElm.style.display = 'none'
+                setTimeout(() => {
                     timeDisplayElm.style.display = 'block'
-                }
-            }, 300)
+                }, 100)
+            }, 1000)
         }
         // set count down time
         minutesDisplayDown = Math.floor(secondsLeft / 60)

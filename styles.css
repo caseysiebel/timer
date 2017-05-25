@@ -5,8 +5,8 @@ body{
 #timer {
     color: white;
     text-align: center;
-    padding-top: 5rem;
-    margin: 8rem 25rem 8rem 25rem;
+    padding-top: 3rem;
+    margin: 4rem 25rem 8rem 25rem;
     font-size: 15rem;
     height: 42rem;
     background-color: rgba( 50, 50, 50, .8);
@@ -22,4 +22,7 @@ body{
 }
 #start {
     display: inline-block;
+}
+.heading {
+    font-size: 3rem;
 }
