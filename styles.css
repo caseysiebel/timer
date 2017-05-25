@@ -2,24 +2,29 @@ window{
     width: 800px;
     height: 480px;
 }
+html {
+    height: 100%;
+}
 body{
-    background-color: black;
-    background-image: url('edited.png'); 
+    width: 100%;
+    height: 100%;
+    background: url('graphic.jpeg') black no-repeat center center;
     background-size: 100%;
-    background-repeat: no-repeat;
+    text-align: center;
+
 }
 #timer {
     color: white;
     text-align: center;
-    font-size: 6rem;
+    font-size: 13rem;
     background-color: rgba( 50, 50, 50, .8);
     border-radius: 1.3rem;
-    margin: 1.5rem 4rem 0 4rem;
-    height: 20rem;
-    padding: 2rem;
+    margin: 3rem 4rem  0 4rem;
+    height: 37rem;
+    padding: 4rem 6rem 6rem 6rem;
 }
 #countUp{
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 #timeInputForm {
 }
