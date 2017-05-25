@@ -9,23 +9,34 @@ body{
 #timer {
     color: white;
     text-align: center;
-    padding-top: 3rem;
-    margin: 4rem 25rem 8rem 25rem;
-    font-size: 15rem;
-    height: 42rem;
+    padding-top: 4rem;
+    font-size: 14rem;
     background-color: rgba( 50, 50, 50, .8);
     border-radius: 1.3rem;
+    margin: 7.5rem 10rem 5rem 10rem;
+    height: 46rem;
+}
+#countUp{
+    margin-top: 5rem;
 }
 #timeInputForm {
 }
 #minutesContainer {
     margin-top: 8rem;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 #minutes {
+    text-align: center;
+    height: 3rem;
+    width: 5rem;
+    font-size: 2rem;
+    border-radius: .3rem;
 }
 #start {
     display: inline-block;
+    font-size: 2rem;
+    border-radius: .3rem;
+    background-color: white;
 }
 .heading {
     font-size: 3rem;
