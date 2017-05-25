@@ -1,0 +1,25 @@
+body{
+    background-image: url('background.png'); 
+    background-repeat: no-repeat;
+}
+#timer {
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+    margin: 8rem 25rem 8rem 25rem;
+    font-size: 15rem;
+    height: 42rem;
+    background-color: rgba( 50, 50, 50, .8);
+    border-radius: 1.3rem;
+}
+#timeInputForm {
+}
+#minutesContainer {
+    margin-top: 8rem;
+    font-size: 2rem;
+}
+#minutes {
+}
+#start {
+    display: inline-block;
+}

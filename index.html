@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Timer</title>
+        <link rel='stylesheet' href='styles.css'>
+    </head>
+    <body>
+        <div id='timer'>
+            <form
+                  id='timeInputForm'
+            >
+            <div id='minutesContainer'>
+                <div>Minutes:</div>
+                <input 
+                    type='text'
+                    id='minutes'
+                >
+            </div>
+                <div><button
+                    id='start'
+                >
+                    Start
+                    </button></div>
+            </form>
+            <div 
+                id='timeDisplay'
+            >
+                <div id='countDown'>
+                    <span id='minutesDisplayDown'></span>
+                    <span>:</span>
+                    <span id='secondsDisplayDown'></span>
+                </div>
+                <div id='countUp'>
+                    <span id='minutesDisplayUp'></span>
+                    <span>:</span>
+                    <span id='secondsDisplayUp'></span>
+                </div>
+            </div>
+            <div id='done'>Done!</div>
+        </div>
+    </body>
+
+    <script>
+        // You can also require other files to run in this process
+        require('./renderer.js')
+    </script>
+</html>
