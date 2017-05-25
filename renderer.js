@@ -51,7 +51,7 @@ function handleClick(e) {
             flash = setInterval(() => {
                 timeDisplayElm.style.display = 'none'
                 setTimeout(() => {
-                    timeDisplayElm.style.display = 'block'
+                    if(secondsLeft !== 0) timeDisplayElm.style.display = 'block'
                 }, 100)
             }, 1000)
         }
