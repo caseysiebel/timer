@@ -3,26 +3,27 @@ window{
     height: 480px;
 }
 body{
-    background-image: url('background.png'); 
+    background-color: black;
+    background-image: url('edited.png'); 
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 #timer {
     color: white;
     text-align: center;
-    padding-top: 4rem;
-    font-size: 14rem;
+    font-size: 6rem;
     background-color: rgba( 50, 50, 50, .8);
     border-radius: 1.3rem;
-    margin: 7.5rem 10rem 5rem 10rem;
-    height: 46rem;
+    margin: 1.5rem 4rem 0 4rem;
+    height: 20rem;
+    padding: 2rem;
 }
 #countUp{
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 #timeInputForm {
 }
 #minutesContainer {
-    margin-top: 8rem;
     font-size: 4rem;
 }
 #minutes {
