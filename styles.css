@@ -16,12 +16,12 @@ body{
 #timer {
     color: white;
     text-align: center;
-    font-size: 13rem;
+    font-size: 5rem;
     background-color: rgba( 50, 50, 50, .8);
     border-radius: 1.3rem;
-    margin: 3rem 4rem  0 4rem;
-    height: 37rem;
-    padding: 4rem 6rem 6rem 6rem;
+    margin: 3rem 3.3rem  0 3.3rem;
+    height: 16rem;
+    padding: 2rem 6rem 6rem 6rem;
 }
 #countUp{
     margin-top: 3rem;
