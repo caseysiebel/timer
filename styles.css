@@ -11,17 +11,20 @@ body{
     background: url('graphic.jpeg') black no-repeat center center;
     background-size: 100%;
     text-align: center;
-
+    overflow: hidden;
 }
 #timer {
     color: white;
     text-align: center;
     font-size: 5rem;
     background-color: rgba( 50, 50, 50, .8);
-    border-radius: 1.3rem;
-    margin: 3rem 3.3rem  0 3.3rem;
-    height: 16rem;
-    padding: 2rem 6rem 6rem 6rem;
+    margin: 3rem  0 0 0;
+    height: 21rem;
+    padding: 2rem 0 2rem;
+    overflow: hidden;
+}
+#minutesLabel {
+    margin-top: 3.5rem;
 }
 #countUp{
     margin-top: 3rem;
@@ -43,6 +46,9 @@ body{
     font-size: 2rem;
     border-radius: .3rem;
     background-color: white;
+}
+#done {
+    margin-top: 6.3rem;
 }
 .heading {
     font-size: 3rem;

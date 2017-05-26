@@ -47,6 +47,9 @@ function handleClick(e) {
         if (secondsLeft <= (5 * 60) && timeDisplayElm.style.color !== 'red'){
             timeDisplayElm.style.color = 'red'
             timeDisplayElm.style.fontWeight = 'bold'
+            timeDisplayElm.style.fontSize = '12rem'
+            let heading = timeDisplayElm.querySelector('.heading')
+            
             countUp.style.display = 'none'
             flash = setInterval(() => {
                 timeDisplayElm.style.display = 'none'
