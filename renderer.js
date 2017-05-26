@@ -23,6 +23,9 @@ function handleClick(e) {
     e.preventDefault()
     let secondsLeft  = minInput.value * 60,
         secondsPast = 0
+    const secondsInput = minInput.value * 60
+
+    const startTime = Date.now()
 
     displayTime()
 
@@ -32,8 +35,11 @@ function handleClick(e) {
 
     // set timer interval
     tick = setInterval(() => {
-        secondsLeft--
-        secondsPast++
+        //secondsLeft--
+        //secondsPast++
+        secondsPast = Math.floor( ( Date.now() - startTime ) / 1000 ) 
+        secondsLeft = secondsInput - secondsPast
+
         displayTime()
     }, 1000 )
     function displayTime() {
